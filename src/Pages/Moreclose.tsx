@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import checkpoint from "../Assets/check-point.svg";
 import But from "../Components/ReUse/But";
+import img from "../Assets/know-about.webp"
 
 const Moreclose = () => {
   return (
@@ -36,7 +37,7 @@ const Moreclose = () => {
           </MainLeft>
           <MainRight>
             <MainRightSub>
-              <Rightimg></Rightimg>
+              <Rightimg src={img}/>
             </MainRightSub>
           </MainRight>
         </Main>
@@ -92,7 +93,11 @@ const Wrapper = styled.div`
   margin-left: 20px;
 `;
 
-const Rightimg = styled.div``;
+const Rightimg = styled.img`
+position: absolute;
+margin-top: 35px;
+margin-left: -80px;
+`;
 
 const MainRightSub = styled.div`
   width: 450px;
@@ -100,6 +105,7 @@ const MainRightSub = styled.div`
   border: 5px solid #f56962;
   margin-left: 30px;
   border-radius: 0px 200px 0px 0px;
+  position: relative;
 `;
 
 const MainRight = styled.div`

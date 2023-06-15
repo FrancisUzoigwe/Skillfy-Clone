@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { FiStar } from "react-icons/fi";
+import Testimony from "../Components/ReUse/Testimony";
+import user from "../Assets/user.webp"
+import user1 from "../Assets/user1.webp"
 
 const Havetosay = () => {
   return (
@@ -25,25 +27,8 @@ const Havetosay = () => {
             </Butt>
           </First>
           <Second>
-            <Testimonial>
-              <ProfileHold>
-                <Profile>
-                  <Image></Image>
-                  <NameHold>
-                    <Names>Williams taylor</Names>
-                    <Ocuu>Student</Ocuu>
-                  </NameHold>
-                  <Stars>
-                    <FiStar color="orange" size={20} />
-                    <FiStar color="orange" size={20} />
-                    <FiStar color="orange" size={20} />
-                    <FiStar color="orange" size={20} />
-                    <FiStar color="orange" size={20} />
-                  </Stars>
-                </Profile>
-                <Details></Details>
-              </ProfileHold>
-            </Testimonial>
+         <Testimony name="William Taylor" occu="Student" details="Skillfy is the best platform to learn new technologies and courses. I have learned a lot many things from this platform." image={user1}/>
+         <Testimony name="Oliver Smith" occu="Student" details="If you search for a platform that can provide you the best learning ccourses, then I would recommend the Skillfy only." image={user}/>
           </Second>
         </Main>
       </Container>
@@ -53,50 +38,7 @@ const Havetosay = () => {
 
 export default Havetosay;
 
-const NameHold = styled.div``;
 
-const Ocuu = styled.div`
-  color: #9798a0;
-`;
-
-const Image = styled.div`
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border-radius: 50%;
-`;
-
-const Names = styled.div`
-  color: #5f5982;
-  font-size: 24px;
-`;
-
-const Stars = styled.div``;
-
-const Profile = styled.div`
-  width: 100%;
-  height: 130px;
-  background: grey;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-const Details = styled.div``;
-
-const ProfileHold = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`;
-
-const Testimonial = styled.div`
-  width: 45%;
-  height: 230px;
-  background-color: white;
-  border-radius: 0px 40px 0px 40px;
-`;
 
 const Second = styled.div`
   width: 100%;

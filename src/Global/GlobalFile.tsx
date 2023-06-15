@@ -6,6 +6,7 @@ import ChoiceCourse from '../Pages/ChoiceCourse'
 import Join from '../Pages/Join'
 import Moreclose from '../Pages/Moreclose'
 import Havetosay from '../Pages/Havetosay'
+import Trusted from '../Pages/Trusted'
 
 const GlobalFile = () => {
   return (
@@ -16,6 +17,7 @@ const GlobalFile = () => {
       <Join/>
       <Moreclose/>
       <Havetosay/>
+      <Trusted/>
     </div>
   )
 }
