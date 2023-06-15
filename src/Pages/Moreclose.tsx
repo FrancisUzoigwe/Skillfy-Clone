@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import checkpoint from "../Assets/check-point.svg"
+import checkpoint from "../Assets/check-point.svg";
+import But from "../Components/ReUse/But";
 
 const Moreclose = () => {
   return (
@@ -17,17 +18,20 @@ const Moreclose = () => {
                 sectors you can choose from, which suits you perfectly
               </Smalltext>
               <Holder>
-                <Icon src={checkpoint}/>
+                <Icon src={checkpoint} />
                 <Description>Detail description of each course</Description>
               </Holder>
               <Holder>
-                <Icon src={checkpoint}/>
+                <Icon src={checkpoint} />
                 <Description>Easy to understand language</Description>
               </Holder>
               <Holder>
-                <Icon src={checkpoint}/>
+                <Icon src={checkpoint} />
                 <Description>Simple and easy to learn courses.</Description>
               </Holder>
+              <ButtonHold>
+                <But text="Start Learning Now" c="white" bc="#F56962" />
+              </ButtonHold>
             </Wrapper>
           </MainLeft>
           <MainRight>
@@ -43,6 +47,12 @@ const Moreclose = () => {
 
 export default Moreclose;
 
+const ButtonHold = styled.div`
+  margin-top: 30px;
+  width: 300px;
+  height: 100px;
+`;
+
 const Text = styled.div`
   font-size: 40px;
   font-weight: 600;
@@ -51,25 +61,25 @@ const Text = styled.div`
 
 const Smalltext = styled.div`
   font-size: 21px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: #695982;
 `;
 
 const Icon = styled.img`
-width: 25px;
-height: 25px;
+  width: 25px;
+  height: 25px;
 `;
 
 const Description = styled.div`
-margin-left: 10px;
-color: #695982;
-font-weight: 500;
+  margin-left: 10px;
+  color: #695982;
+  font-weight: 500;
 `;
 
 const Holder = styled.div`
   height: 40px;
   width: 300px;
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   /* justify-content: space-between; */
   align-items: center;

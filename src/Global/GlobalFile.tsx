@@ -5,6 +5,7 @@ import FavCat from '../Pages/FavCat'
 import ChoiceCourse from '../Pages/ChoiceCourse'
 import Join from '../Pages/Join'
 import Moreclose from '../Pages/Moreclose'
+import Havetosay from '../Pages/Havetosay'
 
 const GlobalFile = () => {
   return (
@@ -14,6 +15,7 @@ const GlobalFile = () => {
       <ChoiceCourse/>
       <Join/>
       <Moreclose/>
+      <Havetosay/>
     </div>
   )
 }
