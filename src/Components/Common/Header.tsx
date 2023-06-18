@@ -215,7 +215,7 @@ const Drop3 = styled.div`
   height: 60px;
   background: white;
   border-radius: 5px;
-  top: 27px;
+  top: 20px;
   position: absolute;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=36, Direction=87, Color=#000000)"; /*IE 8*/
   -moz-box-shadow: -1px 19px 36px 11px rgba(0, 0, 0, 0.2); /*FF 3.5+*/
@@ -230,7 +230,7 @@ const Drop2 = styled.div`
   border-radius: 5px;
   background-color: white;
   position: absolute;
-  top: 27px;
+  top: 20px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=36, Direction=87, Color=#000000)"; /*IE 8*/
   -moz-box-shadow: -1px 19px 36px 11px rgba(0, 0, 0, 0.2); /*FF 3.5+*/
   -webkit-box-shadow: -1px 19px 36px 11px rgba(0, 0, 0, 0.2); /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
@@ -244,7 +244,7 @@ const Drop1 = styled.div`
   border-radius: 5px;
   background-color: white;
   position: absolute;
-  top: 27px;
+  top: 20px;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=36, Direction=87, Color=#000000)"; /*IE 8*/
   -moz-box-shadow: -1px 19px 36px 11px rgba(0, 0, 0, 0.2); /*FF 3.5+*/
   -webkit-box-shadow: -1px 19px 36px 11px rgba(0, 0, 0, 0.2); /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
@@ -265,12 +265,12 @@ const Navi = styled.div`
 
 const Drop = styled.div`
   width: 200px;
-  height: 240px;
+  height: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  top: 27px;
+  top: 20px;
   border-radius: 5px;
   background-color: white;
   position: absolute;
@@ -342,7 +342,7 @@ const DropDown = styled.div`
   height: 350px;
   position: absolute;
   border-radius: 10px;
-  top: 27px;
+  top: 20px;
   z-index: 10;
   transition: all 350ms;
   margin-left: -400px;
