@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { FiStar } from "react-icons/fi";
 import { AiOutlineEye } from "react-icons/ai";
 import { LuPlayCircle } from "react-icons/lu";
+import {AiOutlineHeart} from "react-icons/ai"
 
 interface iView {
   ratetext?: string;
@@ -32,6 +33,7 @@ const Vieww: React.FC<iView> = ({
       <WatchSub>
         <ImageHold>
           <Image src={image} />
+          <Icon/>
           <Details>
             <Rate>
               <FiStar size={20} color="orange" />
@@ -64,6 +66,16 @@ const Vieww: React.FC<iView> = ({
 };
 
 export default Vieww;
+const Icon = styled(AiOutlineHeart)`
+font-size: 30px;
+color: white;
+top: 0;
+right: 0;
+margin-top: 15px;
+margin-right: 15px;
+position: absolute;
+`;
+
 const PriceHold = styled.div`
   display: flex;
 `;
@@ -151,7 +163,7 @@ const Details = styled.div`
   height: 40px;
   border-bottom: 1px solid silver;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 `;
 
@@ -163,6 +175,7 @@ const ImageHold = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   flex-direction: column;
 `;
 

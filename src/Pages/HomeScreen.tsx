@@ -5,9 +5,10 @@ import girl from "../Assets/girl-img-study.webp";
 import pic from "../Assets/dots-pattern-pink.svg";
 import pic1 from "../Assets/dots-pattern-pink.svg";
 
+
 const HomeScreen = () => {
   return (
-    <div>
+    <div id="homescreen">
       <Container>
         <Main>
           <MainLeft>
@@ -18,8 +19,8 @@ const HomeScreen = () => {
                 perfection.
               </BigText>
               <SmallText>
-                Pick from over 100,000 online video courses with new <br />
-                additions published every month.
+                Pick from over 100,000 online video courses with <br />
+                new additions published every month.
               </SmallText>
               <InputHold>
                 <Input placeholder="Search Your Favourite Course" required />
@@ -39,9 +40,10 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
 const Pic1 = styled.img`
   position: absolute;
-  margin-left: -50px;
+  margin-left: -110px;
   margin-top: -110px;
   overflow: hidden;
 `;
@@ -51,8 +53,6 @@ const Pic = styled.img`
   margin-left: 30px;
   margin-top: 130px;
 `;
-
-
 
 const GirlHold = styled.img`
   width: 450px;
@@ -70,6 +70,7 @@ const SmallText = styled.div`
 
 const BigText = styled.h1`
   font-size: 51px;
+  line-height: 60px;
   margin-top: 180px;
   color: #212529;
 `;
@@ -117,11 +118,11 @@ const InputHold = styled.div`
   align-items: center;
   border-radius: 5px;
   margin-top: 20px;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=0, Color=#F56962)"; /*IE 8*/
-  -moz-box-shadow: 0 19px 20px 11px rgba(245, 105, 98, 0.5); /*FF 3.5+*/
-  -webkit-box-shadow: 0 19px 20px 11px rgba(245, 105, 98, 0.5); /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-  box-shadow: 0 19px 20px 11px rgba(245, 105, 98, 0.5); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=20, Direction=135, Color=#F56962); /*IE 5.5-7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=29, Direction=93, Color=#F56962)"; /*IE 8*/
+  -moz-box-shadow: 1px 19px 29px -14px rgba(245, 105, 98, 0.4); /*FF 3.5+*/
+  -webkit-box-shadow: 1px 19px 29px -14px rgba(245, 105, 98, 0.4); /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 1px 19px 29px -14px rgba(245, 105, 98, 0.4); /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=29, Direction=135, Color=#F56962); /*IE 5.5-7*/
 `;
 
 const TextHold = styled.div``;

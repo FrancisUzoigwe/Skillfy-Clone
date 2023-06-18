@@ -29,6 +29,7 @@ const FavCat = () => {
               cardhovercolor="white"
               cardhoverbcolor="#5444A5"
               image={pathon}
+              
             />
             <Cards
               bigText="Development"
