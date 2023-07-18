@@ -240,7 +240,7 @@ const Drop2 = styled.div`
 
 const Drop1 = styled.div`
   width: 200px;
-  height: 140px;
+  height: 130px;
   border-radius: 5px;
   background-color: white;
   position: absolute;
@@ -270,7 +270,7 @@ const Drop = styled.div`
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  top: 20px;
+  top: 22px;
   border-radius: 5px;
   background-color: white;
   position: absolute;

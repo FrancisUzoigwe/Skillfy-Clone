@@ -10,6 +10,7 @@ import img4 from "../Assets/partner4.webp"
 
 
 
+
 const Trusted = () => {
   return (
     <div>
